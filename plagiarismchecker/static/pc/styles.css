@@ -1,0 +1,124 @@
+body{
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        font-family: 'Roboto Mono', monospace;
+        height: 100%; 
+        background-image: linear-gradient(to right top, #ff74d0, #e782e1, #ce8eeb, #b498f0, #9da0ef, #89abf6, #77b6f9, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.tab-content-1{
+    height: 300px;
+    border: 2px solid rgb(131, 130, 130);
+    border-radius: 4px;
+    padding: 3px;
+    background-color: white;
+    box-shadow: 10px 10px;
+}
+.navbar{
+    background-color: #000;
+}
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive; 
+    font-size: 26px; 
+    margin-right: 40px;
+}
+
+
+.navbar-nav{
+    font-size: 20px;     
+}
+
+.navbar-nav li :hover{
+    color: #2a9d8f;    
+    border-bottom: 2px solid #2a9d8f;
+}
+
+.nav-two{
+    margin-left: 40px;
+}
+.navbar-edit{
+    justify-content: flex-end;
+}
+.content-1{
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.tab-content-1{
+    height: 300px;
+    border: 2px solid rgb(131, 130, 130);
+    border-radius: 4px;
+    padding: 3px;
+}
+.text-content{
+    text-align: center;
+}
+form{
+    padding-top: 20px;
+}
+textarea{
+    width: 90%;
+    height: 170px;
+}
+
+input{
+    border-radius: 2px solid rgb(172, 169, 169);
+}
+
+button{
+    background-color: #2a9d8f;
+}
+
+#submit-button-1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #2F4858; 
+    color: white;
+}
+
+#submit-button-2{
+    margin-left: 105px;
+    background-color: #2a9d8f; 
+    color: white; 
+    visibility: hidden;  
+}
+
+.output-per-tot{
+    font-size: 35px;
+    color: #264653;
+    padding-top: 43px;
+    margin-left: 34%;
+    margin-top: 5px;
+    text-align: center;
+    width: 155px;
+    height: 155px;
+    border: 7px solid #57dcff;
+    border-radius: 50%
+}
+.plag-text{
+    margin-left: 6%;
+}
+
+#p1 {
+    margin-left: 180px;
+}
+
+.result-div{
+    margin-bottom: 40px;
+}
+
+.result-1{    
+    background-color: #fbdeff;
+    border: 2px solid;
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.result-2{
+    padding-top: 25px;
+}

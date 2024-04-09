@@ -1,0 +1,112 @@
+body{
+    /* overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll; */
+    font-family: 'Roboto Mono', monospace;
+    background-image: linear-gradient(to right top, #ff74d0, #e782e1, #ce8eeb, #b498f0, #9da0ef, #89abf6, #77b6f9, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive; 
+    font-size: 26px; 
+    margin-right: 40px;
+}
+.navbar-edits{
+    justify-content: flex-end;
+}
+.navbar-nav{
+    font-size: 20px;     
+}
+
+.navbar-nav li :hover{
+    color: #2a9d8f;    
+    border-bottom: 2px solid #2a9d8f;
+}
+
+.nav-two{
+    margin-left: 40px;
+}
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #9ff1ea;
+}
+.content-1{
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.text-content{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.tab-content-2{
+    height: 450px;
+    border: 2px solid rgb(131, 130, 130);
+    box-shadow: 10px 10px;
+    border-radius: 4px;
+    padding: 3px;
+    margin: auto;
+    background-color: #caf1ff;
+}
+
+form{
+    padding-top: 20px;
+}
+
+textarea{
+    width: 90%;
+    height: 170px;
+}
+
+#fileupload {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-left:20px;
+}
+
+#submit-button-1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #39505e; 
+    color: white;
+}
+
+#submit-button-2{
+    margin-top: 125px;
+    margin-left: 100px;
+    background-color: #39505e; 
+    color: white;   
+}
+
+#output {
+    margin-bottom: 200px;
+    height: 100px;
+}
+
+#file-input-dc-2 {
+    color: black;
+}
+
+.button-align{
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.output-per{
+    font-size: 35px;
+    color: #264653;
+    padding-top: 43px;
+    width: 155px;
+    height: 155px;
+    border: 7px solid #57dcff;
+    border-radius: 50%;
+    text-align: center;
+    word-wrap: break-word;
+}
